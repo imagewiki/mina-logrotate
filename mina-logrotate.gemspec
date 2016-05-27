@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Logrotate integration with mina}
   spec.description   = %q{Logrotate features to use with mina}
-  spec.homepage      = "https://github.com/Devlandia/mina-logrotate"
+  spec.homepage      = "https://github.com/imagewiki/mina-logrotate"
   spec.license       = "GPLv3"
 
   spec.files         = `git ls-files`.split($/)
