@@ -1,0 +1,11 @@
+<%= logs_path %>/*.log {
+        weekly
+        size 100M
+        missingok
+        rotate 7
+        compress
+        delaycompress
+        notifempty
+        create 0640 www-data root
+        su root ubuntu
+}
