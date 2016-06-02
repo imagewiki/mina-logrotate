@@ -1,4 +1,4 @@
-require "mina/logrotate/version"
+require 'mina/logrotate/version'
 
 namespace :logrotate do
   set_default :logrotate_path,     '/etc/logrotate.d'
